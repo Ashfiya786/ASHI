@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- Our HTML code starts here -->
+<html lang="en">
+    <!--our head tag starts here-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="This is description">
+    <meta name="robots" content="html,html tutorials ,web development">
+    <meta name="robots" contents="INDEX,FOLLOW">
+    <title>Intro to web development</title>
+    <!-- <link rel="stylesheet" href="ashfiya.css"> -->
+    <style>
+        p{
+            color: blueviolet;
+            background-color: crimson;
+            font-style: italic;
+        }
+        h1{
+             color: blue ;
+             font-family: cursive;
+             font-size: 33px;
+             line-height: 8.em;
+             font-weight: bold;
+             font-style: oblique;
+        }
+        span{
+            color: rgb(29, 255, 27);
+        }
+        h3{
+            color: rgba(21, 185, 57, 0.685);
+            font-style:oblique
+          
+         }
+        .container{
+            border: 4px solid rgb(17, 4, 4)
+        }
+        form{
+            color: salmon;
+        }
+        ul{
+            font-style: italic;
+            color:silver
+        }
+        .store{
+            border: 2px solid rgb(150, 231, 28);
+            background-color: rgb(226, 48, 211);
+            padding: 34px;
+            margin : 34px auto;
+            width: 200px;
+            float: none;
+
+        }
+        .btn{
+            background-color: rgb(236, 211, 72);
+            padding: 10px;
+            border:none;
+            cursor:pointer;
+            font-style: oblique;
+
+        }
+        h2{
+            color: rgb(241, 28, 70);
+            font-style: italic;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<!--our head tag starts here-->
+<body bgcolor="violet">
+    <h1>first heading</h1>
+    <h2>second heading </h2>
+    <h3><centre>THIRD HEADING</centre></h3>
+    <h4>fourth heading</h4>
+    <h5>fifth heading</h5>
+    <h6>sixth heading</h6>
+    <hr>
+    <p><em>Shashank Joshi</em> ,<i>italic</i> member of,<strong> Maharashtra’s Covid-19 task force</strong>, said <b>bold</b> the vaccines being used in India<br> Bharat Biotech’s Covaxin and Serum Institute of India’s Covishield, a version of the Oxford-AstraZeneca vaccine, are absolutely safe — and minor side-effects are expected in some cases, not just for these particular vaccines, but any other vaccine as well. Here are some of the things you need to know, and some precautions that you should take before getting vaccinated.</p>
+    <a href="https://google.com"target="_blank">Go to Google</a>
+    <a href="https://facebook.com"target="_blank">Go to facebook</a>
+    <a href="https://linkedin.com"target="_blank">go to linkedin</a>
+    <a href="https://github.com"target="_blank">go to github</a>
+    <!-- <p style="color: hotpink; background-color: yellow;"> THIS IS A PARAGRAPH WRITING</p> -->
+    <!-- image is not present hence alt text is shown -->
+    <img src="ashfiya.jpg" alt="Error loading image">
+    <img src="https://source.unsplash.com/user/erondu/200x100" alt="remote image">
+    <ol type="A">
+        <li>HTML</li>
+            <ul>
+                <li>OPEN TAGS</li>
+                <li>CLOSE TAGS</li>
+            </ul>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>MYSQL</li>
+        <li>BOOTSTRAP</li>
+    </ol>
+    <ul type="square">
+        <li>WEB</li>
+        <li>ML</li>
+        <li>AI</li>
+        <li>APP</li>
+    </ul>
+    <u><center>ASHFIYA KHAN</center></u>
+    <hr>
+    <B><center>ASHFIYA KHAN</center></B>
+    <hr>
+    <I><center>ASHFIYA KHAN</center></I>
+    <img src="">
+    <!--tables-->
+    <table border="3">
+        <tr>
+            <th>NAME</th>
+            <th>ROLL NO.</th>
+            <th>BRANCH</th>
+        </tr>
+
+        <tr>
+            <td>Ahsan</td>
+            <td>1</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Adnan</td>
+            <td>2</td>
+            <td>AI</td>
+        </tr>
+        <tr>
+            <td>Aslam</td>
+            <td>3</td>
+            <td>ML</td>
+        </tr>
+    </table>
+    <hr>
+    <!--forms-->
+    <form action="process.php" method="POST">
+        <div>
+        <label>FIRST NAME</label>
+        <input type="text" name="firstname">
+        </div>
+        <br>
+        <div>
+        <label>LAST NAME</label>
+        <input type="text" name="lastNAME">
+        </div>  
+        <br>
+        <div>
+        <label>EMAIL</label>
+        <input type="email" name="email">
+        </div> 
+        <br>
+        <div>
+        <label>MESSAGE</label>
+        <textarea name="" ></textarea>
+        </div>
+        <br>
+        <div>
+        <label>GENDER</label>
+        <select name="gender">
+        <option value="male">MALE</option>
+        <option value="female">FEMALE</option>
+        <option value="other">OTHER</option>
+        </select>
+        </div>
+        <br>
+        <div>
+        <label>AGE</label>
+        <input type="number" name="age">
+        </div>  
+        <br>
+        <div>
+            <label>ARE YOU ELIGIBLE</label>
+            <input type="checkbox" name="candidate">
+        </div>
+        <br>
+        <div>
+             STATUS: LITERATE <input type="radio" name="candidate">ILLITERATE<input type="radio" name="candidate">
+        </div>
+        <br>
+
+        <div>
+        <label>BIRTHDAY</label>
+        <input type="date" name="birthday">
+        </div>  
+        <br>
+        <input type="submit" name="submitnow">
+        <input type="reset"  name="resetnow">
+    </form>
+    <br>
+    <!--buttons-->
+    <button>Click Me</button>
+    <br><
+    <div class="container">>
+        <p>This is &nbsp; paragraph</p>
+        <p>para is written like this &lt;a&gt;</p>
+        <p>dollar is written like this &dollar;</p>
+        <p>pound is written like this <span>&pound;</span></p>
+
+    </div>
+    <br>
+    <div class="store" id="store 1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores fuga accusamus,
+             dignissimos eveniet eum debitis! Incidunt eaque qui, numquam at nemo fugiat similique, 
+             adipisci excepturi ipsa id sit minus recusandae, officiis ullam ducimus illo?</p>
+        <a href="" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+    <centre>
+    <div class="heart">
+        <h2>ASHFIYA</h2>
+        <!-- <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae distinctio in dolore deleniti cupiditate facere, ducimus iure eos ipsam quam sunt accusantium magni error eligendi saepe delectus consectetur! Maxime officia rerum, debitis asperiores optio esse laudantium ut veritatis ducimus voluptatum provident, exercitationem sit!</P> -->
+    </div>
+    </centre>
+
+</body>
+</html>
